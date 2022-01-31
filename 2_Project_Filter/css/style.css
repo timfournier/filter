@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+body>div:nth-child(1){
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+body>div>button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    margin: 0;
+	font: inherit;
+	outline: inherit;
+    cursor: pointer;
+}
+
+body>div>button{
+    margin: 20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.rotate{
+    
+    width: 40px;
+    height: 40px;
+    background: white;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+
+
+body>div>button:active{
+    background:rgb(252, 252, 252);
+    box-shadow: -1px 2px 8px 3px rgba(216, 216, 216, 0.2) inset;
+}
+
+
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+
+section{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+}
+
+.list>div{
+    width: 100%;
+    margin:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.list>div>div{
+    display:flex;
+    margin:3%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+p{
+    padding: 0;
+    margin:0;
+}
+
